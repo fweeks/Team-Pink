@@ -53,14 +53,15 @@ video {
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .navbar{
-  background-color: #ffffff;
+  background-color: white;
   font-family: 'Rokkitt', serif;
   height: 60px;
   font-size: 22px;
 }
 .carousel-overlay {
 	position: absolute;
-	bottom: 100px;
+	bottom: 200px;
+  color: white;
 	right: 0;
 	left: 0;
 }
@@ -83,6 +84,9 @@ video {
   color: white;
   font-family: "My Custom Font", Verdana, Tahoma;
 
+}
+.navbar-inverse{
+  border-color: black;
 }
 /*
 
@@ -187,7 +191,7 @@ a {
 }
 .carousel-overlay {
 	position: absolute;
-	bottom: 350px;
+	bottom: 150px;
 	right: 0;
 	left: 0;
 }
@@ -213,7 +217,7 @@ a {
     padding: 10px 30px;
 }
 .featurette-divider {
-    margin: 80px 0;
+    margin-bottom: 80px 0;
 }
 
 .featurette {
@@ -246,7 +250,7 @@ footer {
     }
 
     .featurette-divider {
-        margin: 50px 0;
+        margin: 80px 0;
     }
 
     .featurette-image.pull-left {
@@ -291,7 +295,9 @@ footer {
         font-size: 30px;
     }
 }
-
+hr{
+  margin-bottom: 400px;
+}
 @media(max-width:768px) {
     .container {
         margin: 0 15px;
